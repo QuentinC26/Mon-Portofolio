@@ -4,14 +4,24 @@
   font-weight: 400;
 }
 
-a {
+.nav {
   font-weight: 500;
-  color: #0b0b0b;
+  color: #FFF48D;
 }
 
 body {
   place-items: center;
-  color: #000000;
-  background-color: #56739A;
+  text-align: center;
+  color: #FFF48D;
+  background-color: #AA4A44;
 }
 
+.cv {
+  font-weight: 500;
+  color: #000000;
+}
+
+.copyright {
+  font-weight: 500;
+  color: #000000;
+}
