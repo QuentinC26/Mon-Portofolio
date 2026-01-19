@@ -2,11 +2,12 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 18px
 }
 
 .nav {
   font-weight: 500;
-  color: #FFF48D;
+  color: #000000;
 }
 
 body {
@@ -28,4 +29,9 @@ body {
 
 .contact {
   font-size: 20px;
+}
+
+.title_of_project{
+  font-weight: 500;
+  color: #000000;
 }
