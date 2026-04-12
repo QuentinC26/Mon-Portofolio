@@ -1,12 +1,23 @@
-#root{
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  padding: 50px;
-}
-
 a {
   text-decoration: none;
-  color: blue;
+}
+
+.a_nav {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgb(255, 189, 91);
+  border-radius: 150px;
+  border-color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+.a_cv {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  background-color: rgb(255, 189, 91);
+  border-radius: 150px;
+  border-color: rgb(0, 0, 0);
+  font-size: 22px;
 }
 
 nav{
@@ -27,4 +38,11 @@ ul{
 
 li{
   margin: auto;
+}
+
+button{
+  background-color: rgb(255, 189, 91);
+  border-radius: 150px;
+  border-color: rgb(0, 0, 0);
+  font-size: 24px;
 }
