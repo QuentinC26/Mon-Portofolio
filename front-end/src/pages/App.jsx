@@ -13,10 +13,10 @@ function App() {
     <Router>
       <nav>
         <ul>
-          <li><Link to="/">Accueil</Link></li>
-          <li><Link to="/à_propos">À propos</Link></li>
-          <li><Link to="/mes_projets">Mes projets</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><button><Link to="/" class='a_nav'>Accueil</Link></button></li>
+          <li><button><Link to="/à_propos" class='a_nav'>À propos</Link></button></li>
+          <li><button><Link to="/mes_projets" class='a_nav'>Mes projets</Link></button></li>
+          <li><button><Link to="/contact" class='a_nav'>Contact</Link></button></li>
         </ul>
       </nav>
 
