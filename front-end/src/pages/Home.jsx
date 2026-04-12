@@ -11,7 +11,7 @@ function Home() {
       <br></br>
       <h2>Développeur web</h2>
       <br></br>
-      <a href="https://www.canva.com/design/DAGr0MT1XQw/Deed52pzNYvUyZpdWZDE2Q/view?utm_content=DAGr0MT1XQw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h52064ce82c">Consulter mon CV</a>
+      <button><a className="a_cv" href="https://www.canva.com/design/DAGr0MT1XQw/Deed52pzNYvUyZpdWZDE2Q/view?utm_content=DAGr0MT1XQw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h52064ce82c">Consulter mon CV</a></button>
       <br></br>
       <br></br> 
       <br></br>
