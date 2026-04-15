@@ -47,19 +47,29 @@ button{
   font-size: 24px;
 }
 
-.cards-grid{
+h2{
+  font-size: 24px;
+}
+
+.tabs{
   display: flex;
+  gap: 10px;
   flex-wrap: wrap;
-  gap: 15px;
   justify-content: center;
 }
 
-.card{
-  background-color: rgb(255, 189, 91);
-  border: 1px solid #0c0c0c;
-  border-radius: 30px;
-  padding: 15px;
-  width: 100%;
-  max-width: 350px;
-  box-sizing: border-box;
+.tabs_onetabs{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  border: 3px solid #0c0c0c;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tabs_onetabs p {
+  text-align: left;
+  line-height: 1.6;
 }
