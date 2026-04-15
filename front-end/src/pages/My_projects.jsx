@@ -10,7 +10,6 @@ function My_projects() {
     <u><b> Voici les projets que j’ai réalisés ou sur lesquels je travaille actuellement</b></u>
     <br></br>
     <h3>Autistic Eye</h3>
-    <br></br>
     <p>(Août 2025 - en cours...)</p>
     <br></br>
     <img src={logo_AE} alt="Logo Autistic Eye"/>
