@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: black;
 }
 
 .a_nav {
@@ -93,3 +94,35 @@ h2{
   text-align: left;
   line-height: 1.6;
 }
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background-color: rgb(255, 189, 91);
+  border: 3px solid #000000;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+.card-img {
+  margin-bottom: 20px;
+}
+
+.card-date {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  font-size: 16px;
+  color: #030303;
+}
+
