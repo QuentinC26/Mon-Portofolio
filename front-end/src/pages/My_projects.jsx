@@ -13,7 +13,7 @@ function My_projects() {
     <div className="cards-grid">
     <div className="card ">
     <div className="card-img"><img src={logo_AE} alt="Logo Autistic Eye"/></div>
-    <button><a href="https://github.com/QuentinC26/Autistic-Eye">Autistic Eye</a></button>
+    <a className="card-title" href="https://github.com/QuentinC26/Autistic-Eye">Autistic Eye</a>
     <br></br>
     <br></br>
     <div className="card-date">(Août 2025 - en cours...)</div>
@@ -33,7 +33,7 @@ function My_projects() {
     </div>
     <div className="card ">
     <div className="card-img"><img src={hbnb_logo} alt="Logo Hbnb"/></div>
-    <button><a href="https://github.com/QuentinC26/holbertonschool-hbnb">Hbnb</a></button>
+    <a className="card-title" href="https://github.com/QuentinC26/holbertonschool-hbnb">Hbnb</a>
     <br></br>
     <br></br>
     <div className="card-date">(Mai 2025 - Août 2025)</div>
