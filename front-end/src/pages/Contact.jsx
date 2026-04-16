@@ -19,14 +19,14 @@ function Contact() {
     <div className="card-title "> Email :</div>
     <br></br>
     <div className="card-img"><img src={email} alt="Logo email"/></div>
-    <div className="card-content"> qzuzlewski@gmail.com </div>
+    <div className="card-content"> <a href="mailto:qzuzlewski@gmail.com"> qzuzlewski@gmail.com </a></div>
     <br></br>
     </div>
     <div className="card ">
     <div className="card-title "> Téléphone :</div>
     <br></br>
     <div className="card-img"><img src={telephone} alt="Logo telephone"/></div>
-    <div className="card-content"> 0670064975 </div>
+    <div className="card-content"> <a href="tel:0670064975"> 0670064975 </a></div>
     <br></br>
     </div>
     <div className="card ">
