@@ -73,3 +73,23 @@ h2{
   text-align: left;
   line-height: 1.6;
 }
+
+.tabs_skillstabs{
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  border: 3px solid #0c0c0c;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tabs_skillstabs img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.tabs_skillstabs p {
+  text-align: left;
+  line-height: 1.6;
+}
