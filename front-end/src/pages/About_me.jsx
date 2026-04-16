@@ -2,6 +2,23 @@ import { useState } from "react";
 import quentinzuzlewski from "../assets/quentinzuzlewski.png"
 import holberton from "../assets/holberton.png"
 import work from "../assets/work.png"
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import react from "../assets/react.png"
+import javascript from "../assets/javascript.png"
+import typescript from "../assets/typescript.png"
+import c from "../assets/c.png"
+import python from "../assets/python.png"
+import flask from "../assets/flask.png"
+import django from "../assets/django.png"
+import nodejs from "../assets/nodejs.png"
+import mysql from "../assets/mysql.png"
+import mongodb from "../assets/mongodb.png"
+import git from "../assets/git.png"
+import docker from "../assets/docker.png"
+import methodeagile from "../assets/methodeagile.png"
+import trello from "../assets/trello.png"
+import objectif from "../assets/objectif.png"
 
 function About_me() {
   const [tab, setTab] = useState("who");
@@ -14,10 +31,10 @@ function About_me() {
 
       <div className="tabs">
         <button onClick={() => setTab("who")}>Qui suis-je ?</button>
-        <button onClick={() => setTab("path")}>Mon parcours</button>
-        <button onClick={() => setTab("work")}>Comment je travaille</button>
-        <button onClick={() => setTab("skills")}>Ce que je sais faire</button>
-        <button onClick={() => setTab("search")}>Ce que je recherche</button>
+        <button onClick={() => setTab("path")}>Parcours</button>
+        <button onClick={() => setTab("work")}>Méthode de travail</button>
+        <button onClick={() => setTab("skills")}>Compétences</button>
+        <button onClick={() => setTab("search")}>Objectif professionnel</button>
       </div>
 
       <br />
@@ -38,7 +55,7 @@ function About_me() {
 
       {tab === "path" && (
         <div>
-        <h2>Mon parcours :</h2>
+        <h2>Parcours :</h2>
         <div className="tabs_onetabs">
           <img src={holberton} alt="holberton"/>
           <p>
@@ -52,7 +69,7 @@ function About_me() {
 
       {tab === "work" && (
         <div>
-        <h2>Comment je travaille ? :</h2>
+        <h2>Méthode de travail :</h2>
         <div className="tabs_onetabs">
           <img src={work} alt="work"/>
           <p>
@@ -68,24 +85,40 @@ function About_me() {
 
       {tab === "skills" && (
         <div>
-        <h2>Ce que je sais faire :</h2>
-        <div className="tabs_onetabs">
-          <p>
-            Lors de ma formation à Holberton School, j’ai travaillé avec plusieurs langages et technologies comme Python,
-            JavaScript, HTML, CSS et MySQL. Mes projets m’ont ensuite permis de découvrir Django, React, Flask et Docker,
-            avec un intérêt particulier pour Django et son organisation claire côté back-end.
-          </p>
+        <h2>Compétences :</h2>
+        <div className="tabs_skillstabs">
+          <h3>Front-end :</h3>
+          <img src={html} alt="html" title="HTML"/>
+          <img src={css} alt="css" title="CSS"/>
+          <img src={javascript} alt="javascript" title="Javascript"/>
+          <img src={typescript} alt="typescript" title="Typescript"/>
+          <img src={react} alt="react" title="React"/>
+          <h3>Back-end :</h3>
+          <img src={c} alt="C" title="C"/>
+          <img src={python} alt="python" title="Python"/>
+          <img src={flask} alt="flask" title="Flask"/>
+          <img src={django} alt="django" title="Django"/>
+          <img src={nodejs} alt="nodejs" title="Node.js"/>
+          <h3>Base de données :</h3>
+          <img src={mysql} alt="mysql" title="MySql"/>
+          <img src={mongodb} alt="mongodb" title="MongoDB"/>
+          <h3>Outils & méthodologies :</h3>
+          <img src={git} alt="git" title="Git"/>
+          <img src={docker} alt="docker" title="Docker"/>
+          <img src={methodeagile} alt="méthodeagile" title="Méthode Agile"/>
+          <img src={trello} alt="mysql" title="Trello"/>
         </div>
         </div>
       )}
 
       {tab === "search" && (
         <div>
-        <h2>Ce que je recherche :</h2>
+        <h2>Objectif professionnel :</h2>
         <div className="tabs_onetabs">
+          <img src={objectif} alt="objectif"/>
           <p>
-            Je suis actuellement à la recherche d’un stage afin de continuer à développer mes compétences techniques et mes soft skills.
-            Je reste ouvert à des opportunités en back-end, en front-end ou en full stack.
+          Je suis actuellement à la recherche d’une alternance, avec la possibilité de réaliser un stage en amont, afin de continuer à développer mes compétences techniques et mes soft skills.
+          Je reste ouvert à des opportunités en back-end, en front-end ou en full stack.
           </p>
         </div>
           </div>
