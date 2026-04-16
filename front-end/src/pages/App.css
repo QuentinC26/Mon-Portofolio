@@ -14,10 +14,6 @@ a {
 
 .a_cv {
   color: rgb(0, 0, 0);
-  font-size: 18px;
-  background-color: rgb(255, 189, 91);
-  border-radius: 150px;
-  border-color: rgb(0, 0, 0);
   font-size: 22px;
 }
 
@@ -110,6 +106,11 @@ h2{
   padding: 15px;
   width: 250px;
   box-sizing: border-box;
+}
+
+.card-title{
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .card-img {
