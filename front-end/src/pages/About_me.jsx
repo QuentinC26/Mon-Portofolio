@@ -19,6 +19,7 @@ import docker from "../assets/docker.png"
 import methodeagile from "../assets/methodeagile.png"
 import trello from "../assets/trello.png"
 import objectif from "../assets/objectif.png"
+import netlify from "../assets/netlify.png"
 
 function About_me() {
   const [tab, setTab] = useState("who");
@@ -107,6 +108,7 @@ function About_me() {
           <img src={docker} alt="docker" title="Docker"/>
           <img src={methodeagile} alt="méthodeagile" title="Méthode Agile"/>
           <img src={trello} alt="mysql" title="Trello"/>
+          <img src={netlify} alt="netlify" title="Netlify"/>
         </div>
         </div>
       )}
