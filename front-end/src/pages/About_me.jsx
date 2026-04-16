@@ -126,6 +126,7 @@ function About_me() {
           </div>
       )}
       <br />
+      <br />
     </div>
   );
 }
