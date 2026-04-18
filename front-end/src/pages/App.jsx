@@ -30,7 +30,7 @@ function App() {
       <footer>
       <a href="https://github.com/QuentinC26"> <img src={github} alt="Mon Github"/></a>
       <a href="https://www.linkedin.com/in/quentinzuzlewski/"> <img src={linkedin} alt="Mon Linkedin"/></a>
-      <p class="copyright">©2026 Quentin Zuzlewski. Tous droits réservés.</p>
+      <p className="copyright">©2026 Quentin Zuzlewski. Tous droits réservés.</p>
     </footer>
     </>
   );
