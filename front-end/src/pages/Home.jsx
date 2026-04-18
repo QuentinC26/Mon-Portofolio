@@ -6,7 +6,7 @@ function Home() {
       <br></br>
       <h2>Quentin Zuzlewski</h2>
       <br></br>
-      <img src={quentinzuzlewski} alt="Quentin Zuzlewski"/>
+      <img className="home_img" src={quentinzuzlewski} alt="Quentin Zuzlewski"/>
       <br></br>
       <br></br>
       <h2>Développeur web</h2>
