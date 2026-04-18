@@ -7,15 +7,11 @@ function My_projects() {
 
   return (
     <div>
-    <br></br>
     <h2>Mes projets :</h2>
-    <br></br>
     <div className="cards-grid">
     <div className="card ">
     <div className="card-img"><img src={logo_AE} alt="Logo Autistic Eye"/></div>
     <a className="card-title" href="https://github.com/QuentinC26/Autistic-Eye">Autistic Eye</a>
-    <br></br>
-    <br></br>
     <div className="card-date">(Août 2025 - en cours...)</div>
     <div className="card-content"> {openCard === "AE" ? (
     <>
@@ -26,16 +22,12 @@ function My_projects() {
     Réseau social dédié aux personnes autistes et à leurs proches...
     </>
     )}
-    <br></br>
-    <br></br>
     <button onClick={() => setOpenCard(openCard === "AE" ? null : "AE")}>{openCard === "AE" ? "Voir moins" : "Voir plus"}</button>
     </div>
     </div>
     <div className="card ">
     <div className="card-img"><img src={hbnb_logo} alt="Logo Hbnb"/></div>
     <a className="card-title" href="https://github.com/QuentinC26/holbertonschool-hbnb">Hbnb</a>
-    <br></br>
-    <br></br>
     <div className="card-date">(Mai 2025 - Août 2025)</div>
     <div className="card-content"> {openCard === "HBNB" ?  (
     <>
@@ -43,17 +35,13 @@ function My_projects() {
     </>
     ) : (
     <>
-    Projet académique inspiré d’Airbnb, réalisé en groupe pour le back-end puis en autonomie pour le front-end.
+    Projet académique inspiré d’Airbnb, réalisé en groupe...
     </>
     )}
-    <br></br>
-    <br></br>
     <button onClick={() => setOpenCard(openCard === "HBNB" ? null : "HBNB")}>{openCard === "HBNB" ? "Voir moins" : "Voir plus"}</button>
     </div>
     </div>
     </div>
-    <br></br>
-    <br></br>
     </div>
   );
 }
