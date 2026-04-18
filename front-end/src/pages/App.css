@@ -43,6 +43,7 @@ li{
 }
 
 button{
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 189, 91);
   border-radius: 150px;
   border-color: rgb(0, 0, 0);
