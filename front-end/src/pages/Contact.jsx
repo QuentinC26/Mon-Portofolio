@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
     <br></br>
-    <img src={contacter_moi} alt="Logo email"/>
+    <img className="contact_img" src={contacter_moi} alt="Logo email"/>
     <br></br>
     <br></br>
     <p className="contact_sentence">N’hésitez pas à me contacter pour toute opportunité via les moyens ci-dessous.</p>
