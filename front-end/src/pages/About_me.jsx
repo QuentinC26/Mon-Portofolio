@@ -26,9 +26,7 @@ function About_me() {
   
   return (
     <div>
-      <br />
       <h2>À propos de moi :</h2>
-      <br />
 
       <div className="tabs">
         <button onClick={() => setTab("who")}>Qui suis-je ?</button>
@@ -37,8 +35,6 @@ function About_me() {
         <button onClick={() => setTab("skills")}>Compétences</button>
         <button onClick={() => setTab("search")}>Objectif professionnel</button>
       </div>
-
-      <br />
 
       {tab === "who" && (
         <div>
@@ -124,8 +120,6 @@ function About_me() {
         </div>
           </div>
       )}
-      <br />
-      <br />
     </div>
   );
 }
