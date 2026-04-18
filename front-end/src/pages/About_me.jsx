@@ -43,7 +43,6 @@ function About_me() {
       {tab === "who" && (
         <div>
           <h2>Qui suis-je ?</h2>
-          <br />
           <div className="tabs_onetabs">
           <img src={quentinzuzlewski} alt="Quentin Zuzlewski"/>
           <p>
