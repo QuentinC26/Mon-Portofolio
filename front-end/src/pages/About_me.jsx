@@ -20,6 +20,10 @@ import methodeagile from "../assets/methodeagile.png"
 import trello from "../assets/trello.png"
 import objectif from "../assets/objectif.png"
 import netlify from "../assets/netlify.png"
+import render from "../assets/render.png"
+import java from "../assets/java.png"
+import springboot from "../assets/springboot.png"
+import angular from "../assets/angular.png"
 
 function About_me() {
   const [tab, setTab] = useState("who");
@@ -42,8 +46,7 @@ function About_me() {
           <div className="tabs_onetabs">
           <img src={quentinzuzlewski} alt="Quentin Zuzlewski"/>
           <p>
-            Je suis développeur web full stack, avec une préférence pour le front-end et une forte sensibilité créative.
-            J’aime travailler sur des projets variés, qu’ils soient similaires ou complètement à l’opposé les uns des autres.
+          Issu du développement web full stack, j’aime concevoir et donner vie à des projets numériques, de l’idée initiale jusqu’à leur concrétisation. Curieux et polyvalent, j’apprécie les environnements où je peux apprendre, explorer de nouveaux domaines et contribuer à des projets variés mêlant créativité, réflexion et innovation.
           </p>
         </div>
         </div>
@@ -69,11 +72,7 @@ function About_me() {
         <div className="tabs_onetabs">
           <img src={work} alt="work"/>
           <p>
-            Avant de commencer un projet, je définis les objectifs et les outils adaptés. 
-            J’accorde une grande importance à la lisibilité du code et à sa structure. 
-            J’organise mes projets avec une séparation claire entre front-end, back-end et base de données via Docker. 
-            Je travaille de manière progressive, généralement du back-end vers le front-end. 
-            Enfin, j’utilise une approche agile pour suivre l’avancement du projet et m’adapter aux imprévus.
+            Avant de commencer un projet, je prends le temps de définir les objectifs, les besoins et les solutions adaptées. J’accorde une grande importance à la qualité, à la clarté et à la maintenabilité des réalisations. J’avance de manière progressive en structurant les différentes étapes du projet, tout en restant flexible face aux évolutions et aux imprévus. J’utilise une approche agile afin de suivre l’avancement, recueillir des retours et améliorer continuellement le résultat final.
           </p>
         </div>
         </div>
@@ -89,12 +88,15 @@ function About_me() {
           <img src={javascript} alt="javascript" title="Javascript"/>
           <img src={typescript} alt="typescript" title="Typescript"/>
           <img src={react} alt="react" title="React"/>
+          <img src={angular} alt="angular" title="Angular"/>
           <h3>Back-end :</h3>
           <img src={c} alt="C" title="C"/>
           <img src={python} alt="python" title="Python"/>
           <img src={flask} alt="flask" title="Flask"/>
           <img src={django} alt="django" title="Django"/>
           <img src={nodejs} alt="nodejs" title="Node.js"/>
+          <img src={java} alt="java" title="Java"/>
+          <img src={springboot} alt="springboot" title="Springboot"/>
           <h3>Base de données :</h3>
           <img src={mysql} alt="mysql" title="MySql"/>
           <img src={mongodb} alt="mongodb" title="MongoDB"/>
@@ -104,6 +106,7 @@ function About_me() {
           <img src={methodeagile} alt="méthodeagile" title="Méthode Agile"/>
           <img src={trello} alt="mysql" title="Trello"/>
           <img src={netlify} alt="netlify" title="Netlify"/>
+          <img src={render} alt="render" title="Render"/>
         </div>
         </div>
       )}
@@ -114,8 +117,7 @@ function About_me() {
         <div className="tabs_onetabs">
           <img src={objectif} alt="objectif"/>
           <p>
-          Je suis actuellement à la recherche d’une alternance, avec la possibilité de réaliser un stage en amont, afin de continuer à développer mes compétences techniques et mes soft skills.
-          Je reste ouvert à des opportunités en back-end, en front-end ou en full stack.
+          Actuellement à la recherche d’une nouvelle opportunité, je souhaite continuer à apprendre, développer mes compétences et découvrir de nouveaux domaines dans le numérique. Curieux et adaptable, je suis ouvert à différents types de missions qui me permettront d’évoluer et de mettre à profit mon expérience.
           </p>
         </div>
           </div>
