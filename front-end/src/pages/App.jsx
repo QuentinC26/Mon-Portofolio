@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { useState } from 'react';
 import Home from './Home';
 import About_me from './About_me';
 import My_projects from './My_projects';
@@ -8,15 +9,51 @@ import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
     <Router>
       <nav>
-        <ul>
-          <li><button><Link to="/" className='a_nav'>Accueil</Link></button></li>
-          <li><button><Link to="/a_propos" className='a_nav'>À propos</Link></button></li>
-          <li><button><Link to="/mes_projets" className='a_nav'>Mes projets</Link></button></li>
-          <li><button><Link to="/contact" className='a_nav'>Contact</Link></button></li>
+       <button 
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+
+        <ul className={menuOpen ? "menu active" : "menu"}>
+          <li>
+            <button>
+            <Link onClick={() => setMenuOpen(false)} to="/" className='a_nav'>
+              Accueil
+            </Link>
+            </button>
+          </li>
+
+          <li>
+            <button>
+            <Link onClick={() => setMenuOpen(false)} to="/a_propos" className='a_nav'>
+              À propos
+            </Link>
+            </button>
+          </li>
+
+          <li>
+            <button>
+            <Link onClick={() => setMenuOpen(false)} to="/mes_projets" className='a_nav'>
+              Mes projets
+            </Link>
+            </button>
+          </li>
+
+          <li>
+            <button>
+            <Link onClick={() => setMenuOpen(false)} to="/contact" className='a_nav'>
+              Contact
+            </Link>
+            </button>
+          </li>
         </ul>
       </nav>
 
