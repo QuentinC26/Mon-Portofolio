@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logocds from "../assets/logocds.png"
 import logo_AE from "../assets/logo_AE.png"
 import hbnb_logo from "../assets/hbnb_logo.png"
 
@@ -9,6 +10,22 @@ function My_projects() {
     <div>
     <h2>Mes projets :</h2>
     <div className="cards-grid">
+    <div className="card ">
+    <div className="card-img"><img src={logocds} alt="Logo Coup du Sort"/></div>
+    <a className="card-title" href="https://github.com/QuentinC26/Autistic-Eye">Coup du Sort</a>
+    <div className="card-date">(Avril 2026 - Août 2026)</div>
+    <div className="card-content"> {openCard === "CDS" ? (
+    <>
+    Application de tirage au sort offrant différents thèmes ainsi que des options de personnalisation via des règles spécifiques.
+    </>
+    ) : (
+    <>
+    Application de tirage au sort offrant différents thèmes ainsi que...
+    </>
+    )}
+    <button onClick={() => setOpenCard(openCard === "CDS" ? null : "CDS")}>{openCard === "CDS" ? "Voir moins" : "Voir plus"}</button>
+    </div>
+    </div>
     <div className="card ">
     <div className="card-img"><img src={logo_AE} alt="Logo Autistic Eye"/></div>
     <a className="card-title" href="https://github.com/QuentinC26/Autistic-Eye">Autistic Eye</a>
