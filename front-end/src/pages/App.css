@@ -30,16 +30,17 @@ nav{
   z-index: 50;
 }
 
-ul{
-  margin: 20;
+.menu {
+  margin: 20px;
   padding: 0;
   display:flex;
   gap: 15px;
   list-style: none;
+  justify-content: center;
 }
 
-li{
-  margin: auto;
+.menu li {
+  margin: 0;
 }
 
 button{
@@ -164,9 +165,36 @@ footer{
   padding-top: 40px;
 }
 
+.hamburger {
+  display: none;
+  padding: 5px 15px;
+}
+
 /* Mobile Version */
 
 @media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+    margin: 15px auto;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu li {
+    width: 100%;
+    text-align: center;
+  }
+
   nav{
     position: fixed;
     top: 0;
@@ -174,20 +202,6 @@ footer{
     width: 100%;
     z-index: 50;
   }
-
-  ul{
-    margin: 20;
-    padding: 0;
-    display:flex;
-    gap: 15px;
-    list-style: none;
-    flex-wrap: wrap;
-  }
-
-  li{
-    margin: auto;
-    flex-wrap: wrap;
-  } 
 
   h2{
     font-size: 24px;
